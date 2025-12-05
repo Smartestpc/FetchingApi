@@ -65,7 +65,7 @@ function App() {
             </p>
             <button
               onClick={() => addToCart(product)}
-              className="bg-red-500 text-white px-4 py-1 rounded-md absolute bottom-2"
+              className="bg-lime-500 text-white px-4 py-1 rounded-md absolute bottom-2"
             >
               Add to Cart
             </button>
