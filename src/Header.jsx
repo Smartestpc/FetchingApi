@@ -20,7 +20,7 @@ const Header = () => {
         <div className="cursor-pointer" onClick={handleToggle}>
           <Link to="/cart">
             <div className="relative">
-              <MdOutlineShoppingCart size={30} />
+              <MdOutlineShoppingCart size={27} />
               <span className="absolute -top-2 -right-2 bg-lime-500 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full">
                 {cartCount}
               </span>
