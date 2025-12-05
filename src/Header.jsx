@@ -9,7 +9,7 @@ const Header = () => {
   let { cartCount } = useContext(TogglerCont);
 
   return (
-    <div className="h-19 bg-[#3a3a3a] w-full text-white font-bold flex items-center justify-between px-4 fixed top-0 left-0 right-0 z-10">
+    <div className="h-20 bg-[#3a3a3a] w-full text-white font-bold flex items-center justify-between px-4 fixed top-0 left-0 right-0 z-10">
       <div className="text-3xl text-lime-500 uppercase">Smart Store</div>
       <div className="flex items-center gap-8">
         <div className={toggleBtn ? "hidden" : "block"}>
